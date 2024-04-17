@@ -3,3 +3,7 @@ __pycache__
 
 # File dotenv
 .env
+
+.csv
+.xlsx
+.bsk
