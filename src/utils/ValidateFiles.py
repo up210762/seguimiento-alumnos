@@ -7,7 +7,7 @@ from werkzeug.utils import secure_filename
 load_dotenv()
 
 # Carga de la ruta para subit los archivos
-UPLOAD_FOLDER = os.getenv('ROOT_PATH')
+UPLOAD_FOLDER = os.getenv('INPUT_FILES')
 
 def validate_files(file):
     if file.filename:

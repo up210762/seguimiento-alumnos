@@ -3,8 +3,8 @@ import csv
 
 subjects = get_groups()
 
-def write_results(dataStudents: list):
-    with open('src/files/Seguimiento Alumnos.csv', 'w', newline='') as file:
+def write_results(filename, dataStudents: list):
+    with open(f'src/output-files/{filename}', 'w', newline='') as file:
         writer = csv.writer(file, delimiter=',',
                             quotechar=',', quoting=csv.QUOTE_MINIMAL)
         

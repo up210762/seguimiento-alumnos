@@ -19,7 +19,7 @@ import os, csv, traceback, time
 load_dotenv()
 
 # Charge the path for save the files
-UPLOAD_FOLDER = os.getenv('ROOT_PATH')
+INPUT_FOLDER = os.getenv('INPUT_FILES')
 
 # Define the variable type array
 reader_students = []
@@ -32,9 +32,10 @@ relation_subject_group = []
 def register_service(filename, date: str):
     try:
         # Se abre un contexto global para manejar el archivo CSV
-        with open(f'{UPLOAD_FOLDER}/{filename}', newline='') as csvfile:
+        with open(f'{INPUT_FOLDER}/{filename}', newline='') as csvfile:
             counter = 0
             reader = csv.reader(csvfile)
+            print(csvfile)
 
             # Se realiza una primera iteración para llenar las tablas de registro que no necesitan de datos externos.
             for row in reader:
@@ -90,7 +91,7 @@ def register_service(filename, date: str):
     except Exception as ex:
         Logger.add_to_log('Error:', traceback.format_exc())
 
-        return {
-            'message': f"Error: {ex}",
-            'success': False
-        }, 500
+        return "Error: hubo un problema al procesar el archivo.", 500
+    
+    finally:
+        csvfile.close()

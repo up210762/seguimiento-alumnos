@@ -1,0 +1,356 @@
+2024-04-16 21:28:38 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 38, in insertfiles
+    res, status = register_service(file,filename, date)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: register_service() takes 2 positional arguments but 3 were given
+
+2024-04-16 21:31:50 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 38, in insertfiles
+    res, status = register_service(file,filename, date)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: register_service() takes 2 positional arguments but 3 were given
+
+2024-04-17 19:11:13 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 38, in insertfiles
+    res, status = register_service(filename, date)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/services/mainRegisterService.py", line 102, in register_service
+    csvfile.close()
+    ^^^^^^^
+UnboundLocalError: cannot access local variable 'csvfile' where it is not associated with a value
+
+2024-04-17 19:13:35 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 38, in insertfiles
+    res, status = register_service(filename, date)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/services/mainRegisterService.py", line 102, in register_service
+    csvfile.close()
+    ^^^^^^^
+UnboundLocalError: cannot access local variable 'csvfile' where it is not associated with a value
+
+2024-04-17 19:16:16 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 38, in insertfiles
+    res, status = register_service(filename, date)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/services/mainRegisterService.py", line 102, in register_service
+    csvfile.close()
+    ^^^^^^^
+UnboundLocalError: cannot access local variable 'csvfile' where it is not associated with a value
+
+2024-04-17 19:18:41 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 38, in insertfiles
+    res, status = register_service(filename, date)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/services/mainRegisterService.py", line 102, in register_service
+    csvfile.close()
+    ^^^^^^^
+UnboundLocalError: cannot access local variable 'csvfile' where it is not associated with a value
+
+2024-04-17 19:20:51 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 38, in insertfiles
+    res, status = register_service(filename, date)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/services/mainRegisterService.py", line 102, in register_service
+    csvfile.close()
+    ^^^^^^^
+UnboundLocalError: cannot access local variable 'csvfile' where it is not associated with a value
+
+2024-04-17 19:23:25 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 38, in insertfiles
+    res, status = register_service(filename, date)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/services/mainRegisterService.py", line 102, in register_service
+    csvfile.close()
+    ^^^^^^^
+UnboundLocalError: cannot access local variable 'csvfile' where it is not associated with a value
+
+2024-04-17 19:25:51 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 38, in insertfiles
+    res, status = register_service(filename, date)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/services/mainRegisterService.py", line 102, in register_service
+    csvfile.close()
+    ^^^^^^^
+UnboundLocalError: cannot access local variable 'csvfile' where it is not associated with a value
+
+2024-04-17 19:27:03 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 38, in insertfiles
+    res, status = register_service(filename, date)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/services/mainRegisterService.py", line 102, in register_service
+    csvfile.close()
+    ^^^^^^^
+UnboundLocalError: cannot access local variable 'csvfile' where it is not associated with a value
+
+2024-04-17 19:33:26 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 38, in insertfiles
+    res, status = register_service(filename, date)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/services/mainRegisterService.py", line 102, in register_service
+    csvfile.close()
+    ^^^^^^^
+UnboundLocalError: cannot access local variable 'csvfile' where it is not associated with a value
+
+2024-04-17 19:35:32 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 38, in insertfiles
+    res, status = register_service(filename, date)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/services/mainRegisterService.py", line 102, in register_service
+    csvfile.close()
+    ^^^^^^^
+UnboundLocalError: cannot access local variable 'csvfile' where it is not associated with a value
+
+2024-04-17 19:42:49 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 38, in insertfiles
+    res, status = register_service(filename, date)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/services/mainRegisterService.py", line 102, in register_service
+    csvfile.close()
+    ^^^^^^^
+UnboundLocalError: cannot access local variable 'csvfile' where it is not associated with a value
+
+2024-04-17 19:43:55 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 38, in insertfiles
+    res, status = register_service(filename, date)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/services/mainRegisterService.py", line 102, in register_service
+    csvfile.close()
+    ^^^^^^^
+UnboundLocalError: cannot access local variable 'csvfile' where it is not associated with a value
+
+2024-04-17 19:44:05 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 38, in insertfiles
+    res, status = register_service(filename, date)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/services/mainRegisterService.py", line 102, in register_service
+    csvfile.close()
+    ^^^^^^^
+UnboundLocalError: cannot access local variable 'csvfile' where it is not associated with a value
+
+2024-04-17 19:44:07 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 38, in insertfiles
+    res, status = register_service(filename, date)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/services/mainRegisterService.py", line 102, in register_service
+    csvfile.close()
+    ^^^^^^^
+UnboundLocalError: cannot access local variable 'csvfile' where it is not associated with a value
+
+2024-04-17 19:44:09 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 38, in insertfiles
+    res, status = register_service(filename, date)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/services/mainRegisterService.py", line 102, in register_service
+    csvfile.close()
+    ^^^^^^^
+UnboundLocalError: cannot access local variable 'csvfile' where it is not associated with a value
+
+2024-04-17 19:45:31 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 38, in insertfiles
+    res, status = register_service(filename, date)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/services/mainRegisterService.py", line 99, in register_service
+    csvfile.close()
+    ^^^^^^^
+UnboundLocalError: cannot access local variable 'csvfile' where it is not associated with a value
+
+2024-04-17 19:47:14 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 38, in insertfiles
+    res, status = register_service(filename, date)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/services/mainRegisterService.py", line 99, in register_service
+    csvfile.close()
+    ^^^^^^^
+UnboundLocalError: cannot access local variable 'csvfile' where it is not associated with a value
+
+2024-04-17 19:49:59 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 38, in insertfiles
+    res, status = register_service(filename, date)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/services/mainRegisterService.py", line 99, in register_service
+    csvfile.close()
+    ^^^^^^^
+UnboundLocalError: cannot access local variable 'csvfile' where it is not associated with a value
+
+2024-04-17 19:50:02 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 38, in insertfiles
+    res, status = register_service(filename, date)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/services/mainRegisterService.py", line 99, in register_service
+    csvfile.close()
+    ^^^^^^^
+UnboundLocalError: cannot access local variable 'csvfile' where it is not associated with a value
+
+2024-04-17 20:07:45 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 37, in insertfiles
+    filename, validation = validate_files(file)
+                           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/utils/ValidateFiles.py", line 20, in validate_files
+    file.save(os.path.join(UPLOAD_FOLDER, filename))
+                                          ^^^^^^^^
+UnboundLocalError: cannot access local variable 'filename' where it is not associated with a value
+
+2024-04-17 20:09:22 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 41, in insertfiles
+    write_file_service()
+TypeError: write_file_service() missing 1 required positional argument: 'filename'
+
+2024-04-17 20:11:50 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 41, in insertfiles
+    write_file_service()
+TypeError: write_file_service() missing 1 required positional argument: 'filename'
+
+2024-04-17 20:13:43 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 26, in insertfiles
+    title = request.json['title']
+            ^^^^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 558, in json
+    return self.get_json()
+           ^^^^^^^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/flask/wrappers.py", line 128, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+
+2024-04-17 20:13:49 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 26, in insertfiles
+    title = request.json['title']
+            ^^^^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 558, in json
+    return self.get_json()
+           ^^^^^^^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/flask/wrappers.py", line 128, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+
+2024-04-17 20:14:15 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 26, in insertfiles
+    title = request.data['title']
+            ~~~~~~~~~~~~^^^^^^^^^
+TypeError: byte indices must be integers or slices, not str
+
+2024-04-17 20:14:17 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 26, in insertfiles
+    title = request.data['title']
+            ~~~~~~~~~~~~^^^^^^^^^
+TypeError: byte indices must be integers or slices, not str
+
+2024-04-17 20:14:18 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 26, in insertfiles
+    title = request.data['title']
+            ~~~~~~~~~~~~^^^^^^^^^
+TypeError: byte indices must be integers or slices, not str
+
+2024-04-17 20:14:19 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 26, in insertfiles
+    title = request.data['title']
+            ~~~~~~~~~~~~^^^^^^^^^
+TypeError: byte indices must be integers or slices, not str
+
+2024-04-17 20:31:23 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 29, in insertfiles
+    title = file.filename
+            ^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'filename'
+
+2024-04-17 20:35:09 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 29, in insertfiles
+    title = file.filename
+            ^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'filename'
+
+2024-04-17 20:40:10 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 28, in insertfiles
+    file = request.form['file']
+           ~~~~~~~~~~~~^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+2024-04-17 20:40:19 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 28, in insertfiles
+    file = request.form['file']
+           ~~~~~~~~~~~~^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+2024-04-17 20:40:58 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 26, in insertfiles
+    file = request.form['file']
+           ~~~~~~~~~~~~^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+2024-04-17 20:41:08 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 26, in insertfiles
+    file = request.form['file']
+           ~~~~~~~~~~~~^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+2024-04-17 20:42:49 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 26, in insertfiles
+    file = request.form['file']
+           ~~~~~~~~~~~~^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+2024-04-17 20:42:56 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/InsertFilesRoutes.py", line 26, in insertfiles
+    file = request.form['file']
+           ~~~~~~~~~~~~^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/werkzeug/datastructures/structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+2024-04-18 01:23:54 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/__init__.py", line 25, in init_app
+    app.register_blueprint(GetUploadFilesRoute.main, url_prefix='/get-generated-files')
+  File "/home/d2023f/.local/lib/python3.12/site-packages/flask/scaffold.py", line 50, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/flask/app.py", line 1299, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/d2023f/.local/lib/python3.12/site-packages/flask/blueprints.py", line 384, in register
+    raise ValueError(
+ValueError: The name 'get_upload_files_blueprint' is already registered for this blueprint. Use 'name=' to provide a unique name.
+
+2024-04-18 01:37:14 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/__init__.py", line 25, in init_app
+    app.register_blueprint(GetUploadFilesRoute.main, url_prefix='/get-generated-files')
+  File "/home/d2023f/.local/lib/python3.12/site-packages/flask/scaffold.py", line 50, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/flask/app.py", line 1299, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/d2023f/.local/lib/python3.12/site-packages/flask/blueprints.py", line 384, in register
+    raise ValueError(
+ValueError: The name 'get_upload_files_blueprint' is already registered for this blueprint. Use 'name=' to provide a unique name.
+
+2024-04-18 02:18:48 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/__init__.py", line 25, in init_app
+    app.register_blueprint(GetUploadFilesRoute.main, url_prefix='/get-generated-files')
+  File "/home/d2023f/.local/lib/python3.12/site-packages/flask/scaffold.py", line 50, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/flask/app.py", line 1299, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/d2023f/.local/lib/python3.12/site-packages/flask/blueprints.py", line 384, in register
+    raise ValueError(
+ValueError: The name 'get_upload_files_blueprint' is already registered for this blueprint. Use 'name=' to provide a unique name.
+
