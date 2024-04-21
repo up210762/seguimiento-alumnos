@@ -354,3 +354,192 @@ ValueError: The name 'get_upload_files_blueprint' is already registered for this
     raise ValueError(
 ValueError: The name 'get_upload_files_blueprint' is already registered for this blueprint. Use 'name=' to provide a unique name.
 
+2024-04-19 20:30:24 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/Files/InsertFilesRoutes.py", line 43, in insertfiles
+    filename, validation = validate_files(file)
+                           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/utils/ValidateFiles.py", line 20, in validate_files
+    file.save(os.path.join(UPLOAD_FOLDER, filename))
+                                          ^^^^^^^^
+UnboundLocalError: cannot access local variable 'filename' where it is not associated with a value
+
+2024-04-19 20:30:29 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/Files/InsertFilesRoutes.py", line 43, in insertfiles
+    filename, validation = validate_files(file)
+                           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/utils/ValidateFiles.py", line 20, in validate_files
+    file.save(os.path.join(UPLOAD_FOLDER, filename))
+                                          ^^^^^^^^
+UnboundLocalError: cannot access local variable 'filename' where it is not associated with a value
+
+2024-04-19 20:31:31 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/Files/InsertFilesRoutes.py", line 43, in insertfiles
+    filename, validation = validate_files(file)
+                           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/utils/ValidateFiles.py", line 20, in validate_files
+    file.save(os.path.join(UPLOAD_FOLDER, filename))
+                                          ^^^^^^^^
+UnboundLocalError: cannot access local variable 'filename' where it is not associated with a value
+
+2024-04-19 20:31:41 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/routes/Files/InsertFilesRoutes.py", line 43, in insertfiles
+    filename, validation = validate_files(file)
+                           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/utils/ValidateFiles.py", line 20, in validate_files
+    file.save(os.path.join(UPLOAD_FOLDER, filename))
+                                          ^^^^^^^^
+UnboundLocalError: cannot access local variable 'filename' where it is not associated with a value
+
+2024-04-20 07:22:32 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/__init__.py", line 33, in init_app
+    app.register_blueprint(DownloadFiles.main, url_prefix='/delete/<file>')
+  File "/home/d2023f/.local/lib/python3.12/site-packages/flask/scaffold.py", line 50, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/flask/app.py", line 1299, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/d2023f/.local/lib/python3.12/site-packages/flask/blueprints.py", line 384, in register
+    raise ValueError(
+ValueError: The name 'download_files_blueprint' is already registered for this blueprint. Use 'name=' to provide a unique name.
+
+2024-04-20 17:57:05 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/__init__.py", line 24, in init_app
+    response = jsonify()
+               ^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/flask/json/__init__.py", line 342, in jsonify
+    return current_app.json.response(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+
+2024-04-20 17:57:35 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/__init__.py", line 24, in init_app
+    response = jsonify()
+               ^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/flask/json/__init__.py", line 342, in jsonify
+    return current_app.json.response(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+
+2024-04-20 17:57:52 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/__init__.py", line 24, in init_app
+    response = jsonify()
+               ^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/flask/json/__init__.py", line 342, in jsonify
+    return current_app.json.response(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+
+2024-04-20 17:58:16 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/__init__.py", line 24, in init_app
+    response = jsonify()
+               ^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/flask/json/__init__.py", line 342, in jsonify
+    return current_app.json.response(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+
+2024-04-20 17:58:30 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/__init__.py", line 24, in init_app
+    response = jsonify()
+               ^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/flask/json/__init__.py", line 342, in jsonify
+    return current_app.json.response(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+
+2024-04-20 17:58:44 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/__init__.py", line 24, in init_app
+    response = jsonify()
+               ^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/flask/json/__init__.py", line 342, in jsonify
+    return current_app.json.response(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/werkzeug/local.py", line 311, in __get__
+    obj = instance._get_current_object()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/werkzeug/local.py", line 508, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+
+2024-04-20 18:58:39 | ERROR | Traceback (most recent call last):
+  File "/home/d2023f/Documentos/Programación/ISC/seguimiento-alumnos/backend/src/__init__.py", line 39, in init_app
+    app.register_blueprint(DeleteFilesRoute.main, url_prefix='/delete/<path>/<file>')
+  File "/home/d2023f/.local/lib/python3.12/site-packages/flask/scaffold.py", line 50, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/flask/app.py", line 1299, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/d2023f/.local/lib/python3.12/site-packages/flask/blueprints.py", line 439, in register
+    deferred(state)
+  File "/home/d2023f/.local/lib/python3.12/site-packages/flask/blueprints.py", line 494, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/flask/blueprints.py", line 112, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/d2023f/.local/lib/python3.12/site-packages/flask/scaffold.py", line 50, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/flask/app.py", line 1357, in add_url_rule
+    self.url_map.add(rule)
+  File "/home/d2023f/.local/lib/python3.12/site-packages/werkzeug/routing/map.py", line 169, in add
+    rule.bind(self)
+  File "/home/d2023f/.local/lib/python3.12/site-packages/werkzeug/routing/rules.py", line 563, in bind
+    self.compile()
+  File "/home/d2023f/.local/lib/python3.12/site-packages/werkzeug/routing/rules.py", line 711, in compile
+    self._build = self._compile_builder(False).__get__(self, None)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/d2023f/.local/lib/python3.12/site-packages/werkzeug/routing/rules.py", line 818, in _compile_builder
+    code = compile(module, "<werkzeug routing>", "exec")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<werkzeug routing>", line 1
+SyntaxError: duplicate argument 'path' in function definition
+

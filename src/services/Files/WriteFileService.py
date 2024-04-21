@@ -1,4 +1,6 @@
 from src.services.Subject.getSubjects import get_groups
+from src.services.Score.getResultService import get_results
+
 import csv
 
 subjects = get_groups()
@@ -31,4 +33,9 @@ def write_results(filename, dataStudents: list):
             else:
                 files.append(data[4])
         
-            
+def write_file_service(filename):
+    try:
+        data_students = get_results()
+        write_results(filename, data_students)
+    except Exception as ex:
+        return 500

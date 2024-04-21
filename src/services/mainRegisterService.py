@@ -7,10 +7,10 @@ from src.models.ModelGroup import Group
 from src.models.ModelSubject import Subject
 from src.services.Students.registerStudentService import register_student
 from src.services.Subject.registerSubjectService import register_subject
-from src.services.Results.registerScoreService import register_score
+from src.services.Score.registerScoreService import register_score
 from src.services.Groups.registerGroupService import register_group
 from src.services.Groups.textCleanerGroupsService import clean_text
-from src.services.Results.getResultService import get_tries
+from src.services.Score.getResultService import get_tries
 from src.utils.Logger import Logger
 from dotenv import load_dotenv
 import os, csv, traceback, time

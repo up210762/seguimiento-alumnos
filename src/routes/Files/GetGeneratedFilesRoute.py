@@ -11,6 +11,6 @@ def get_files():
         for file in files:
             if file.name[-3:] == 'csv':
                 return_files.append(file.name)
-        return return_files
+        return jsonify(return_files)
     except Exception as ex:
         return jsonify("Error"), 500

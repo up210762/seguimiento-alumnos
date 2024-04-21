@@ -1,7 +1,7 @@
-from flask import Blueprint, Response
+from flask import Blueprint, jsonify
 
 main = Blueprint('index_blueprint', __name__)
 
 @main.route('/', methods=['GET'])
 def index():
-    return Response("<h1>Not entry</h1>",status=403)
+    return jsonify("Not entry",status=403)

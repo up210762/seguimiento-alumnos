@@ -1,5 +1,5 @@
 from flask import Blueprint, jsonify, request
-from src.services.mainGetResults import write_file_service
+from src.services.Files.WriteFileService import write_file_service
 import os
 
 main = Blueprint('write_files_blueprint', __name__)

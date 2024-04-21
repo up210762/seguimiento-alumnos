@@ -3,7 +3,7 @@ import traceback
 from flask import Blueprint, request, jsonify
 from src.services.mainRegisterService import register_service
 from src.utils.ValidateFiles import validate_files
-from src.services.mainGetResults import write_file_service
+from src.services.Files.WriteFileService import write_file_service
 from src.services.db.DateValidation import validate_date, register_date
 from datetime import datetime
 
@@ -32,8 +32,6 @@ def insertfiles():
                     title = f'{request.form['title']}.csv'
             else:
                 title = file.filename
-                
-            print(title)
 
             file_size_mb = request.files['file'].content_length / (1024 * 1024)
             if file_size_mb > 200:
@@ -42,9 +40,9 @@ def insertfiles():
             
             valid_date = True
 
+            filename, validation = validate_files(file)
             valid_date = validate_date(date)
             if valid_date == True:
-                filename, validation = validate_files(file)
                 if validation == True: 
                     res, status = register_service(filename, date)
                     if status == 200:
