@@ -35,7 +35,7 @@ try:
             app.register_blueprint(GetGeneratedFilesRoute.main, url_prefix='/get-generated-files')
             app.register_blueprint(InsertFilesRoutes.main, url_prefix='/upload-results')
             app.register_blueprint(WriteFileRoute.main, url_prefix='/write-files')
-            app.register_blueprint(DownloadFilesRoute.main, url_prefix='/download/<file>')
+            app.register_blueprint(DownloadFilesRoute.main, url_prefix='/download/<path>/<file>')
             app.register_blueprint(DeleteFilesRoute.main)
             app.register_blueprint(IndexRoutes.main, url_prefix='/')
             
