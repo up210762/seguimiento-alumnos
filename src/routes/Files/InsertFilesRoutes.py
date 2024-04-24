@@ -50,7 +50,7 @@ def insertfiles():
                         register_date()
                         return jsonify("Registros realizados con éxito")
                     else:
-                        return jsonify(res["message"]), status
+                        return jsonify(res), status
                 else:
                     return jsonify("No se pudo realizar la carga del archivo"), 415
             else:

@@ -35,7 +35,6 @@ def register_service(filename, date: str):
         with open(f'{INPUT_FOLDER}/{filename}', newline='') as csvfile:
             counter = 0
             reader = csv.reader(csvfile)
-            print(csvfile)
 
             # Se realiza una primera iteración para llenar las tablas de registro que no necesitan de datos externos.
             for row in reader:
